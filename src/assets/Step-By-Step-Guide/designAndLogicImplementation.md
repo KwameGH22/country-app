@@ -38,3 +38,11 @@ as follows:
 |    dark:text-[#ffffff]      |              |
 |  dark:bg-[#2B3844]        |              |
 
+```js
+    <div className='w-full min-h-screen dark:bg-[#202C36]'>
+        <header className='flex  font-Nunito text-[#111517] bg-[#FFFFFF] dark:bg-[#2B3844] dark:text-[#FFFFFF] w-full justify-around py-6 shadow-lg'>
+        
+        </header> //Step 02
+
+    </div> //Step 01
+```
