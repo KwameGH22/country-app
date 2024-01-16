@@ -1,5 +1,5 @@
 # List of Guides in chronological order
-Included in this Project is a step by step implementation guide to this project and is inspired by my love for teaching.
+Included in this Project is a step by step implementation guide and is inspired by my love for teaching.
 I hope this is useful to all tech-newbie!
 
 - React-Vite installation
