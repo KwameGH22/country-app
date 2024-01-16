@@ -13,7 +13,11 @@
 |w-full          |Sets the width of the element to be 100% of its container. This makes the element span the entire width of its parent.              |
 |min-h-screen         |Sets the minimum height of the element to be at least the full height of the viewport (screen). This ensures that the element takes up at least the entire height of the screen. It's often used to create full-height layouts or sections.              |
 
-
+```js
+    <div className='w-full min-h-screen dark:bg-[#202C36]'>
+    
+    </div>
+```
 
 | Utility Class | Description |
 |---------------|-------------|
