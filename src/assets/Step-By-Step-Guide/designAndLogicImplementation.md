@@ -2,7 +2,7 @@
 
 ## LANDING PAGE
 
-### STEP ONE
+### STEP 01
 - Within the return block of the App.jsx component/file, a parent div is appended with the following
 - utility class composition:
 
@@ -18,6 +18,12 @@
 
     </div> //Step 01
 ```
+
+### STEP 02
+
+-The <code>parent div</code> is appended an only-child <code>Header tag</code> with utility class composition \n 
+as follows:
+
 
 | Utility Class | Description |
 |---------------|-------------|
