@@ -15,8 +15,8 @@
 
 ```js
     <div className='w-full min-h-screen dark:bg-[#202C36]'>
-    
-    </div>
+
+    </div> //Step 01
 ```
 
 | Utility Class | Description |
