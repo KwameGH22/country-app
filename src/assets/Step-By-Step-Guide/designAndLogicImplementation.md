@@ -13,10 +13,10 @@
 |justify-around          |              |
 |w-full          |              |
 |bg-[#FFFFFF]          |              |
-|          |              |
-|          |              |
-|          |              |
-|          |              |
-|          |              |
-|          |              |
-|          |              |
+|font-Nunito          |              |
+| text-[#111517]         |              |
+| py-6         |              |
+|     shadow-lg     |              |
+|    dark:text-[#ffffff]      |              |
+|  dark:bg-[#2B3844]        |              |
+
