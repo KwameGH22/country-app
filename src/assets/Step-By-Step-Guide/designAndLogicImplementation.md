@@ -61,3 +61,28 @@ as follows:
 
     </div> //Step 01
 ```
+
+### STEP 04
+- Inside the first div, append an <code>h1 tag</code> with the following utility class composition:
+
+| Utility Class | Description |
+|---------------|-------------|
+|text-2xl          |              |
+|mobile:text-lg          |              |
+|font-extrabold         |              |
+
+- and the content <code>Where in the World?</code>
+
+```js
+    <div className='w-full min-h-screen dark:bg-[#202C36]'>
+        <header className='flex justify-around w-full bg-[#FFFFFF] font-Nunito text-[#111517] py-6 shadow-lg dark:bg-[#2B3844] dark:text-[#FFFFFF]'>
+
+            <div>
+                <h1 className='text-2xl mobile:text-lg font-extrabold'></h1> //step 04
+            </div>  //step 03
+            <div></div>  //step 03
+        
+        </header>  //Step 02
+
+    </div> //Step 01
+```
