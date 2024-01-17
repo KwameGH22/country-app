@@ -21,7 +21,7 @@
 
 ### STEP 02
 
--The <code>parent div</code> is appended an only-child <code>Header tag</code> with utility class composition \n 
+- The <code>parent div</code> is appended an only-child <code>Header tag</code> with utility class composition \n 
 as follows:
 
 
@@ -40,9 +40,24 @@ as follows:
 
 ```js
     <div className='w-full min-h-screen dark:bg-[#202C36]'>
-        <header className='flex  font-Nunito text-[#111517] bg-[#FFFFFF] dark:bg-[#2B3844] dark:text-[#FFFFFF] w-full justify-around py-6 shadow-lg'>
+        <header className='flex justify-around w-full bg-[#FFFFFF] font-Nunito text-[#111517] py-6 shadow-lg dark:bg-[#2B3844] dark:text-[#FFFFFF]'>
         
-        </header> //Step 02
+        </header>  //Step 02
+
+    </div> //Step 01
+```
+
+### STEP 03
+- Inside the <code>Header tag</code> append two sibling <code>divs</code>:
+
+```js
+    <div className='w-full min-h-screen dark:bg-[#202C36]'>
+        <header className='flex justify-around w-full bg-[#FFFFFF] font-Nunito text-[#111517] py-6 shadow-lg dark:bg-[#2B3844] dark:text-[#FFFFFF]'>
+
+            <div></div>  //step 03
+            <div></div>  //step 03
+        
+        </header>  //Step 02
 
     </div> //Step 01
 ```
