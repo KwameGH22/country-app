@@ -86,3 +86,32 @@ as follows:
 
     </div> //Step 01
 ```
+### STEP 05
+- Inside the second div append the tailwind class composition:
+
+| Utility Class | Description |
+|---------------|-------------|
+|flex          |              |
+|item-center          |              |
+|gap-2         |              |
+|text-center        |              |
+
+- This second div is supposed to house a theme icon that is either a Moon for dark theme or a Sun for light theme together with a text description that is DARK or LIGHT.
+- However these have to be rendered conditionally and in a dynamic logic.
+- So inside the second div lets append the react Moon icon and a span tag that will contain the theme description text: DARK
+
+```js
+    <div className='w-full min-h-screen dark:bg-[#202C36]'>
+        <header className='flex justify-around w-full bg-[#FFFFFF] font-Nunito text-[#111517] py-6 shadow-lg dark:bg-[#2B3844] dark:text-[#FFFFFF]'>
+
+            <div>
+                <h1 className='text-2xl mobile:text-lg font-extrabold'></h1> //step 04
+            </div>  //step 03
+            <div>
+                <Moon/><span>DARK</span>  //step 05
+            </div>  //step 03
+        
+        </header>  //Step 02
+
+    </div> //Step 01
+```
