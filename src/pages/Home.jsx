@@ -1,10 +1,20 @@
 import React from 'react'
+import SearchAndFilter from '../components/SearchAndFilter'
+
+
 
 const Home = () => {
+    
+
+
+
   return (
-    <div>
-      
-    </div>
+    <main className="home xl:pt-16">
+      <div className="container grid xl:gap-16">
+        <SearchAndFilter/>
+        <Countries/>
+      </div>
+    </main>
   )
 }
 
