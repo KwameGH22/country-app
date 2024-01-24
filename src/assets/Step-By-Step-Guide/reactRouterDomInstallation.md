@@ -9,7 +9,7 @@
 
 ```js
 //main.js
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom' //step 01
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -27,7 +27,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
 
-    <BrowserRouter>
+    <BrowserRouter> // step 02
       <App />
     </BrowserRouter>
       
@@ -65,7 +65,7 @@ export default App
 ```
 ### STEP 05
 
-- With your <code>&ltRoutes&gt</code> <code>&lt/Routes&gt</code> start defining your unique routes by invoking the <code>&ltRoute&gt</code> <code>&lt/Route&gt</code> component which has earlier on been import from react-router-dom.
+- Within your <code><Route></code> <code>&lt/Routes&gt</code> start defining your unique routes by invoking the <code>&ltRoute&gt</code> <code>&lt/Route&gt</code> component which has earlier on been import from react-router-dom.
 
 ```js
 import {Routes, Route} from 'react-router-dom';
