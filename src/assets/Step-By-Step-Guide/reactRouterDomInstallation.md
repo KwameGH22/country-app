@@ -65,7 +65,7 @@ export default App
 ```
 ### STEP 05
 
-- Within your <code><Route></code> <code>`&lt`/Routes`&gt`</code> start defining your unique routes by invoking the <code>&ltRoute&gt</code> <code>&lt/Route&gt</code> component which has earlier on been import from react-router-dom.
+- Within your <<code>Route</code>/> <code>&lt/Routes`&gt`</code> start defining your unique routes by invoking the <code>&ltRoute&gt</code> <code>&lt/Route&gt</code> component which has earlier on been import from react-router-dom.
 
 ```js
 import {Routes, Route} from 'react-router-dom';
