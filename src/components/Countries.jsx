@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
+import CountryCard from './CountryCard';
 
-const Countries = () => {
+
+const Countries = ( { countries }) => {
+  const allCountries = countries.map((country) => (
+    <CountryCard key={country.name.common} {...country}/>
+  ));
+
+
+
   return (
-    <div>
-      
-    </div>
+    <div className="countries ">{allCountries}</div>
   )
 }
 

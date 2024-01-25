@@ -11,6 +11,7 @@ const RootLayout = () => {
     <div>
       <Header/>
       <Outlet/>
+      
     </div>
   )
 }

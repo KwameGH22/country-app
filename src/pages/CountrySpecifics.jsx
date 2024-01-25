@@ -5,7 +5,7 @@ const CountrySpecifics = () => {
 
  
   return (
-    
+    <div className=''>MY COUNTRYPROFILE PAGE</div>
   );
 }
 
