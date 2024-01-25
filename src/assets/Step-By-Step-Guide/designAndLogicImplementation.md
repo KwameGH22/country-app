@@ -2,7 +2,7 @@
 
 ## LANDING PAGE
 
-![Home Page-light](src\assets\desktop-design-detail-dark.jpg)
+![Home Page-light](C:\Users\USER\Desktop\React-Tailwind Projects\country-app\src\assets\desktop-design-detail-dark.jpg)
 
 ### STEP 01
 - Within the return block of the App.jsx component/file, a parent div is appended with the following
