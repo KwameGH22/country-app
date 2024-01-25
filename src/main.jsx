@@ -10,6 +10,8 @@ import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import "./index.css";
 import {loader as homeLoader} from './pages/Home'
+import CountryProfile from "./pages/CountryProfile";
+import {loader as countryProfileLoader} from './pages/CountryProfile'
 
 
 const router = createBrowserRouter(
@@ -26,6 +28,7 @@ const router = createBrowserRouter(
         loader= {homeLoader}
         // errorElement={<ErrorPage />}
       />
+      <Route path=":country" element={<CountryProfile />} loader={countryProfileLoader}/>
     </Route>
   )
 );

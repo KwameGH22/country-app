@@ -16,7 +16,7 @@ const Home = () => {
   
   const handleQuery = (e) => {
     const { name, value } = e.target;
-    // console.log(name);
+    console.log(name);
     setQuery({ ...query, [name]: value });
 
     if (name === "search") {
