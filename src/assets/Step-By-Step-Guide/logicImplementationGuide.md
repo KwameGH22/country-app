@@ -1,6 +1,6 @@
 # LOGIC IMPLEMENTATION GUIDE
 
-## THEME TOGGLE IMPLEMENTATION LOGIC
+## THEME TOGGLE IMPLEMENTATION LOGIC (TRADITIONAL)
 
 ### STEP 01
 - Themeing logic will be implemented in the root component/file <code>App.jsx</code>.

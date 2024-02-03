@@ -1,6 +1,6 @@
 # DESIGN IMPLEMENTATION GUIDE
 
-## LANDING PAGE
+## HEADER COMPONENT
 
 ![Home Page-light](src/assets/desktop-design-detail-dark.jpg)
 
@@ -117,3 +117,4 @@ as follows:
 
     </div> //Step 01
 ```
+## 

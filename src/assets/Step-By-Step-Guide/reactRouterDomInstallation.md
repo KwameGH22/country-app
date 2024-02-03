@@ -5,11 +5,12 @@
 - It helps to create and navigate between different URLs that make up your web application.
 - Assists in providing unique URLs for different components in your application and makes the UI easily shareable with other users.
 ### STEP 01
-- Open the main.jsx file of your react project and import <code>CreateBrowserRoute</code> from <code>react-router-dom</code>.
+- the react-router-dom version used in this project is v6.21.3.  
+- Open the main.jsx file of your react project and the top of the file import the following components: <code>CreateBrowserRouter</code>, <code>RouterProvider</code>, <code>Route</code> and <code>CreateRoutesFromElements</code> from <code>react-router-dom</code>.
 
 ```js
 //main.js
-import { BrowserRouter } from 'react-router-dom' //step 01
+import {CreateBrowserRouter, RouterProvider,Route, CreateRoutesFromElements } from 'react-router-dom' //step 01
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
