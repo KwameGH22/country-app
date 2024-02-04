@@ -58,7 +58,7 @@ const CountryProfile = () => {
     .join(", "); //This gets the languages
 
   return (
-    <div className="container grid gap-12 py-12 items-start ">
+    <div className="container grid gap-12 py-12 items-start text-[#111517] bg-[#FFFFFF]  dark:bg-[#2B3844] dark:text-[#FFFFFF] ">
       <Link to={"/"} className="text-black font-light w-max">
         <button className="px-4 py-2  bg-white rounded-sm shadow-lg dark:bg-[#2B3844] dark:text-[#FFFFFF] ">
           ← Back
