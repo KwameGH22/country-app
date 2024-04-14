@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useAppContext } from "../useAppContext";
 import SearchField from "../components/SearchField";
 import FilterField from "../components/FilterField";

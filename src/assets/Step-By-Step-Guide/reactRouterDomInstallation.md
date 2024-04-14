@@ -4,7 +4,16 @@
 - React-router-dom is a fully featured client and server-side routing library developed for React.
 - It helps to create and navigate between different URLs that make up your web application.
 - Assists in providing unique URLs for different components in your application and makes the UI easily shareable with other users.
+- In traditional websites, the browser requests a document from a web server, downloads and evaluates CSS and JavaScript assets, and renders the HTML sent from the server.
+- When the user clicks a link, it starts the process all over again for a new page.
+- Client side routing allows your app to update the URL from a link click without making another request for another document from the server.
+- Instead, your app can immediately render some new UI and make data requests with fetch to update the page with new information.
+- This enables faster user experiences because the browser doesn't need to request an entirely new document or re-evaluate CSS and JavaScript assets for the next page.
+- It also enables more dynamic user experiences with things like animation.
+
+
 ### STEP 01
+
 - the react-router-dom version used in this project is v6.21.3.  
 - Open the main.jsx file of your react project and the top of the file import the following components: <code>CreateBrowserRouter</code>, <code>RouterProvider</code>, <code>Route</code> and <code>CreateRoutesFromElements</code> from <code>react-router-dom</code>.
 

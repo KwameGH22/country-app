@@ -1,10 +1,10 @@
-import React, {useEffect} from 'react'
+import React from 'react';
 import { useAppContext } from "../useAppContext";
-import { RxReload } from 'react-icons/rx';
+// import { RxReload } from 'react-icons/rx';
 import { Link } from 'react-router-dom';
 
 const Card = () => {
-    const {isLoading, countries} = useAppContext()
+    const { countries} = useAppContext()
 
    
 

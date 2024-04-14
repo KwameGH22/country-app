@@ -1,7 +1,7 @@
 import React from "react";
 import { IoMoonOutline } from "react-icons/io5";
 import { BsSun } from "react-icons/bs";
-import { useState, useEffect, useContext } from "react";
+// import { useState, useEffect, useContext } from "react";
 import { useAppContext } from "../useAppContext";
 
 const Header = () => {

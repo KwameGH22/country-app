@@ -6,8 +6,8 @@ import {
   redirect,
   useParams,
 } from "react-router-dom";
-import { useAppContext } from "../useAppContext";
-import { Context } from "../context/Context";
+// import { useAppContext } from "../useAppContext";
+// import { Context } from "../context/Context";
 
 //loader function
 // export const loader = async ({ req, params }) => {
@@ -72,7 +72,7 @@ const CountryProfile = () => {
   return (
     <>
       {countries ? (
-        <div className=" w-[90%] min-width-[90%] m-auto grid gap-12 py-12 items-start text-[#111517] bg-[#FFFFFF]  dark:bg-[#2B3844] dark:text-[#FFFFFF] ">
+        <div className=" w-[100%] min-width-[90%] m-auto grid gap-12 py-12 items-start text-[#111517] bg-[#FFFFFF]  dark:bg-[#2B3844] dark:text-[#FFFFFF] ">
           <Link to={"/"} className="text-black font-light w-max">
             <button className="px-4 py-2  bg-white rounded-sm shadow-lg dark:bg-[#2B3844] dark:text-[#FFFFFF] ">
               ← Back
